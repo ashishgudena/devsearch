@@ -1,18 +1,73 @@
 # DevSearch
-Sourcode and Resources for Django 5 Course
 
-See the full course here: https://dennisivy.teachable.com/p/django-beginners-course
+### Steps:-
+
+--> 1. Clone the repository
+```bash
+git clone https://github.com/divanov11/StudyBud.git
+
+```
+
+--> 2. Move into the directory
+```bash
+cd StudyBud
+
+```
+
+--> 3. Create a virtual environment
+```bash
+# install virtualenv if it has not been installed yet
+pip install virtualenv
+
+# create virtual environment
+virtualenv envname
+
+```
+
+--> 4. Activate the virtual environment
+```bash
+envname\scripts\activate
+
+```
+
+--> 5. Install the requirements
+```bash
+pip install -r requirements.txt
+
+```
 
 
-# Installation
-* 1 - clone repo https://github.com/divanov11/Django-Course
-* 2 - create a virtual environment and activate
-*  - pip install virtualenv
-*  - virtualenv envname
-*  - envname\scripts\activate
-* 3 - cd into project "cd Django-Course"
-* 4 - pip install -r requirements.txt
-* 5 - python manage.py runserver
+--> 6. Run the web application
+```bash
+python manage.py runserver
+
+```
+
+> The development server will be started at http://127.0.0.1:8000/
+
+#
+
+### App Preview :
+
+<table width="100%"> 
+<tr>
+<td width="50%">      
+&nbsp; 
+<br>
+<p align="center">
+  Feed Home
+</p>
+<img src="https://user-images.githubusercontent.com/72341453/134747262-0a92233d-8010-40f8-84c5-8d94895aac44.PNG">
+</td> 
+<td width="50%">
+<br>
+<p align="center">
+  Room Conversation Preview
+</p>
+<img src="https://user-images.githubusercontent.com/72341453/134747155-3ca5b55f-b064-4741-aeae-abe90bddf41e.PNG">  
+</td>
+</table>
+
 
 
 
@@ -22,31 +77,7 @@ See the full course here: https://dennisivy.teachable.com/p/django-beginners-cou
 * Rate others work
 * Search other developers
 
-# Course Overview
-* Basic Djagno Overview
-* Database Design and Models
-* Static Files
-* User Registration & Authenticaiton
-* Search
-* Pagination
-* Building an API with Django REST Framework (DRF)
-* Deployment
-
 # Tech Stack
 * Django
-* Postgres
+* PostgresSQL
 * Django REST Framework
-
-# Home Page
-<img src="./resources/images/Devsearch Home.jpg">  
-
-
-# Projects Page
-<img src="./resources/images/DevSearch Projects.jpg">  
-
-# Profile Page
-<img src="./resources/images/Devsearch Profile.jpg">  
-
-# User Inbox
-<img src="./resources/images/Devsearch Inbox.jpg">  
-
